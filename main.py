@@ -1,16 +1,25 @@
-# This is a sample Python script.
+# this is how you print to the console
+# print("Hello World")
+# variable1 = "hello"
+# print(type(variable1))
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# name = input("what is your name?")
+# print(f" Hello {name}")
 
+# age = input("how old are you?")
+# # print(f"{age} is old")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+# num_cats = int(input("How many cats do you have?"))
+# total_cans = num_cats*3
+# print(f"You need {total_cans} cans a day")
 
+# num_car = int(input("How many cars do you have?"))
+# total_tyres = num_car*4
+# print(f"You need {total_tyres} tyres")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+age = int(input("What is your age? "))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if age > 18:
+    print("You are a granny")
+else:
+    print("You are a baby")
